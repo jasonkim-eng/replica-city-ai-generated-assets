@@ -1,0 +1,46 @@
+{
+  "asset_id": "wood_block_001",
+  "passed": true,
+  "checks": {
+    "meters": true,
+    "kilograms": true,
+    "z_up": true,
+    "component": true,
+    "one_rigid_body": true,
+    "positive_mass": true,
+    "mass_matches_reference": true,
+    "inertia_matches_updated_mass": true,
+    "com_matches_proxy_model": true,
+    "positive_finite_inertia": true,
+    "dynamic": true,
+    "colliders_closed": true,
+    "visuals_material_bound": true,
+    "dependencies_resolved": true,
+    "bottom_near_zero": true,
+    "no_lights_or_cameras": true
+  },
+  "dimensions_m": [
+    0.05999999865889549,
+    0.03999999910593033,
+    0.029999999329447746
+  ],
+  "bounds_m": [
+    [
+      -0.029999999329447746,
+      -0.019999999552965164,
+      0.0
+    ],
+    [
+      0.029999999329447746,
+      0.019999999552965164,
+      0.029999999329447746
+    ]
+  ],
+  "visual_meshes": 1,
+  "colliders": 1,
+  "dependencies": [
+    "textures/wood_basecolor.png"
+  ],
+  "unresolved": [],
+  "simready_certified": false
+}

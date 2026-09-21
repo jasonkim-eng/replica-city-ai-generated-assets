@@ -1,0 +1,76 @@
+#usda 1.0
+(
+    defaultPrim = "cell_phone_001"
+    kilogramsPerUnit = 1
+    metersPerUnit = 1
+    upAxis = "Z"
+)
+
+def Xform "cell_phone_001" (
+    prepend apiSchemas = ["PhysxRigidBodyAPI"]
+    kind = "component"
+)
+{
+    custom int physxRigidBody:solverPositionIterationCount = 16
+    custom int physxRigidBody:solverVelocityIterationCount = 4
+
+    over "colliders"
+    {
+        over "body" (
+            prepend apiSchemas = ["PhysxCollisionAPI"]
+        )
+        {
+            custom float physxCollision:contactOffset = 0.001
+            custom float physxCollision:restOffset = 0
+        }
+
+        over "camera_island" (
+            prepend apiSchemas = ["PhysxCollisionAPI"]
+        )
+        {
+            custom float physxCollision:contactOffset = 0.001
+            custom float physxCollision:restOffset = 0
+        }
+
+        over "camera_rim_0" (
+            prepend apiSchemas = ["PhysxCollisionAPI"]
+        )
+        {
+            custom float physxCollision:contactOffset = 0.001
+            custom float physxCollision:restOffset = 0
+        }
+
+        over "camera_rim_1" (
+            prepend apiSchemas = ["PhysxCollisionAPI"]
+        )
+        {
+            custom float physxCollision:contactOffset = 0.001
+            custom float physxCollision:restOffset = 0
+        }
+
+        over "button_0" (
+            prepend apiSchemas = ["PhysxCollisionAPI"]
+        )
+        {
+            custom float physxCollision:contactOffset = 0.001
+            custom float physxCollision:restOffset = 0
+        }
+
+        over "button_1" (
+            prepend apiSchemas = ["PhysxCollisionAPI"]
+        )
+        {
+            custom float physxCollision:contactOffset = 0.001
+            custom float physxCollision:restOffset = 0
+        }
+
+        over "button_2" (
+            prepend apiSchemas = ["PhysxCollisionAPI"]
+        )
+        {
+            custom float physxCollision:contactOffset = 0.001
+            custom float physxCollision:restOffset = 0
+        }
+    }
+}
+

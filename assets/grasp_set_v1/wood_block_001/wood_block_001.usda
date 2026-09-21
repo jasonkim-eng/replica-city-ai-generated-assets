@@ -1,0 +1,33 @@
+#usda 1.0
+(
+    defaultPrim = "wood_block_001"
+    kilogramsPerUnit = 1
+    metersPerUnit = 1
+    subLayers = [
+        @physics.usda@
+    ]
+    upAxis = "Z"
+)
+
+def Xform "wood_block_001" (
+    assetInfo = {
+        string name = "wood_block_001"
+        string version = "1.1.0-research"
+    }
+    customData = {
+        dictionary research = {
+            bool physical_parameters_measured = 0
+            string physics_model = "rigid_body"
+            bool simready_certified = 0
+        }
+    }
+    kind = "component"
+)
+{
+    def Xform "visuals" (
+        prepend references = @visual.usdc@
+    )
+    {
+    }
+}
+

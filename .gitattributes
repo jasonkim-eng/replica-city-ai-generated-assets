@@ -1,0 +1,9 @@
+* text=auto
+*.py text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.usda text eol=lf
+*.svg text eol=lf
+*.blend binary
+*.usdc binary
+*.png binary

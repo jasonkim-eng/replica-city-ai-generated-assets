@@ -1,0 +1,54 @@
+{
+  "asset_id": "food_carton_001",
+  "entrypoint": "food_carton_001.usda",
+  "mass_kg": 0.165,
+  "mass_provenance": {
+    "mass_kg": 0.165,
+    "state": "sealed, containing 150 g dry oat crackers",
+    "method": "150 g food + 15 g estimated carton/liner. Surface area 0.032 m2 x 350 g/m2 = 11.2 g; folds, glue and liner rounded to 15 g.",
+    "reference_type": "representative net food mass plus calculated packaging allowance",
+    "source_urls": [
+      "https://nairns.com/our-range/flatbreads/rosemary-sea-salt-flatbreads",
+      "https://www.holmen.com/en/board-and-paper/products/paperboard/incada/incada-exel/"
+    ],
+    "notes": "Not an exact replica of the cited food package. Packaging allowance is an engineering estimate, not a published gross mass."
+  },
+  "physical_material": {
+    "static_friction": 0.55,
+    "dynamic_friction": 0.45,
+    "restitution": 0.05
+  },
+  "physical_material_provenance": "engineering starting estimates; pair-dependent and uncalibrated",
+  "center_of_mass_m": [
+    3.1511642382972478e-19,
+    0.0,
+    0.05999999999999999
+  ],
+  "principal_inertia_kg_m2": [
+    8.937499999999999e-05,
+    0.0002200000000000003,
+    0.0002653750000000003
+  ],
+  "inertia_provenance": "uniform-density integration of collision proxies; overlapping compound parts counted additively",
+  "collision_proxy_volume_m3": 0.00033600000000000004,
+  "collider_count": 1,
+  "semantic_class": "food_carton",
+  "deformation_modeled": false,
+  "grasp_tested": false,
+  "simready_certified": false,
+  "source_job": "artifacts/jobs/20260920T071631Z-7d2c9e79/food_carton_001",
+  "limitations": [
+    "Rigid approximation; no crushing, breakage, liquids or electronics behavior.",
+    "Visual micro-details are omitted from collision where not contact-critical.",
+    "No task-specific robot grasp success claim."
+  ],
+  "simulation_validation": {
+    "isaac_version": "6.0.0.1",
+    "physics_hz": 480,
+    "drop_trials_passed": 3,
+    "drop_trials_total": 3,
+    "all_drop_checks_passed": true,
+    "failed_checks": [],
+    "robot_grasp_tested": false
+  }
+}

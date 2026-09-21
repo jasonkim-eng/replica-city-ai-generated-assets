@@ -1,0 +1,44 @@
+{
+  "asset_id": "ceramic_mug_001",
+  "passed": true,
+  "checks": {
+    "meters": true,
+    "kilograms": true,
+    "z_up": true,
+    "component": true,
+    "one_rigid_body": true,
+    "positive_mass": true,
+    "mass_matches_reference": true,
+    "inertia_matches_updated_mass": true,
+    "com_matches_proxy_model": true,
+    "positive_finite_inertia": true,
+    "dynamic": true,
+    "colliders_closed": true,
+    "visuals_material_bound": true,
+    "dependencies_resolved": true,
+    "bottom_near_zero": true,
+    "no_lights_or_cameras": true
+  },
+  "dimensions_m": [
+    0.11699999868869781,
+    0.07999999821186066,
+    0.0949999988079071
+  ],
+  "bounds_m": [
+    [
+      -0.03999999910593033,
+      -0.03999999910593033,
+      0.0
+    ],
+    [
+      0.07699999958276749,
+      0.03999999910593033,
+      0.0949999988079071
+    ]
+  ],
+  "visual_meshes": 3,
+  "colliders": 73,
+  "dependencies": [],
+  "unresolved": [],
+  "simready_certified": false
+}

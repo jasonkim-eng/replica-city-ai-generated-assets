@@ -1,0 +1,80 @@
+{
+  "asset_id": "cell_phone_001",
+  "entrypoint": "cell_phone_001.usda",
+  "mass_kg": 0.187,
+  "mass_provenance": {
+    "mass_kg": 0.187,
+    "state": "phone with battery, no case",
+    "method": "187 g reference mass from Google Pixel 8 specifications, used for a similarly sized generic smartphone.",
+    "reference_type": "manufacturer-listed product mass adopted for a comparable phone",
+    "source_urls": [
+      "https://support.google.com/pixelphone/answer/7158570?hl=en"
+    ],
+    "notes": "Not a Pixel replica. Camera layout and dimensions remain the generic design. Battery/internal mass distribution is not measured."
+  },
+  "physical_material": {
+    "static_friction": 0.4,
+    "dynamic_friction": 0.3,
+    "restitution": 0.04
+  },
+  "physical_material_provenance": "engineering starting estimates; pair-dependent and uncalibrated",
+  "center_of_mass_m": [
+    -0.0003182234341102197,
+    0.0008142277144766733,
+    0.0059943813753644505
+  ],
+  "principal_inertia_kg_m2": [
+    8.574497320047546e-05,
+    0.00035895259110103623,
+    0.0004420974313248065
+  ],
+  "inertia_provenance": "uniform-density integration of collision proxies; overlapping compound parts counted additively",
+  "collision_proxy_volume_m3": 0.00010173736246547244,
+  "collider_count": 7,
+  "semantic_class": "cell_phone",
+  "deformation_modeled": false,
+  "grasp_tested": false,
+  "simready_certified": false,
+  "source_job": "artifacts/grasp_set_v1/final_visual/cell_phone_001",
+  "limitations": [
+    "Rigid approximation; no crushing, breakage, liquids or electronics behavior.",
+    "Visual micro-details are omitted from collision where not contact-critical.",
+    "No task-specific robot grasp success claim."
+  ],
+  "simulation_validation": {
+    "isaac_version": "6.0.0.1",
+    "physics_hz": 480,
+    "drop_trials_passed": 1,
+    "drop_trials_total": 3,
+    "all_drop_checks_passed": false,
+    "failed_checks": [
+      {
+        "pose": 0,
+        "checks": {
+          "finite": true,
+          "not_fallen_through": true,
+          "near_floor": true,
+          "settled_last_second": true,
+          "low_linear_speed": true,
+          "low_angular_speed": false,
+          "contact_force_recorded": true,
+          "actually_dropped": true
+        }
+      },
+      {
+        "pose": 1,
+        "checks": {
+          "finite": true,
+          "not_fallen_through": true,
+          "near_floor": true,
+          "settled_last_second": true,
+          "low_linear_speed": true,
+          "low_angular_speed": false,
+          "contact_force_recorded": true,
+          "actually_dropped": true
+        }
+      }
+    ],
+    "robot_grasp_tested": false
+  }
+}

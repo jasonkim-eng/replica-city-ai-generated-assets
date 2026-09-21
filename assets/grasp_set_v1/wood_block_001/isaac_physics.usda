@@ -1,0 +1,28 @@
+#usda 1.0
+(
+    defaultPrim = "wood_block_001"
+    kilogramsPerUnit = 1
+    metersPerUnit = 1
+    upAxis = "Z"
+)
+
+def Xform "wood_block_001" (
+    prepend apiSchemas = ["PhysxRigidBodyAPI"]
+    kind = "component"
+)
+{
+    custom int physxRigidBody:solverPositionIterationCount = 16
+    custom int physxRigidBody:solverVelocityIterationCount = 4
+
+    over "colliders"
+    {
+        over "body" (
+            prepend apiSchemas = ["PhysxCollisionAPI"]
+        )
+        {
+            custom float physxCollision:contactOffset = 0.001
+            custom float physxCollision:restOffset = 0
+        }
+    }
+}
+

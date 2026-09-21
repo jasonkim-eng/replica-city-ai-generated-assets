@@ -1,0 +1,45 @@
+{
+  "asset_id": "ceramic_mug_001",
+  "scene": "research_ceramic_mug_001.001",
+  "output_dir": ".",
+  "blend_path": "authoring.blend",
+  "usd_path": "visual.usdc",
+  "bounds_m": [
+    [
+      -0.03999999910593033,
+      -0.03999999910593033,
+      0.0
+    ],
+    [
+      0.07699999958276749,
+      0.03999999910593033,
+      0.0949999988079071
+    ]
+  ],
+  "dimensions_m": [
+    0.11699999868869781,
+    0.07999999821186066,
+    0.0949999988079071
+  ],
+  "objects": [
+    {
+      "name": "ceramic_mug_001_hollow_ceramic_body.002",
+      "vertices": 1346,
+      "faces": 1440
+    },
+    {
+      "name": "ceramic_mug_001_open_handle.002",
+      "vertices": 1040,
+      "faces": 1026
+    },
+    {
+      "name": "ceramic_mug_001_mobiltech_official_wordmark",
+      "vertices": 4924,
+      "faces": 8977
+    }
+  ],
+  "export_finished": true,
+  "physics_authored": false,
+  "simready_validated": false,
+  "path_policy": "Paths describe packaged files; original job locations were removed."
+}

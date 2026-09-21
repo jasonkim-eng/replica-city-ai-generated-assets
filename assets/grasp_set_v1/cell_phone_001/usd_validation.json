@@ -1,0 +1,44 @@
+{
+  "asset_id": "cell_phone_001",
+  "passed": true,
+  "checks": {
+    "meters": true,
+    "kilograms": true,
+    "z_up": true,
+    "component": true,
+    "one_rigid_body": true,
+    "positive_mass": true,
+    "mass_matches_reference": true,
+    "inertia_matches_updated_mass": true,
+    "com_matches_proxy_model": true,
+    "positive_finite_inertia": true,
+    "dynamic": true,
+    "colliders_closed": true,
+    "visuals_material_bound": true,
+    "dependencies_resolved": true,
+    "bottom_near_zero": true,
+    "no_lights_or_cameras": true
+  },
+  "dimensions_m": [
+    0.07500000298023224,
+    0.15205499529838562,
+    0.01054999977350235
+  ],
+  "bounds_m": [
+    [
+      -0.03750000149011612,
+      -0.07605499774217606,
+      0.0
+    ],
+    [
+      0.03750000149011612,
+      0.07599999755620956,
+      0.01054999977350235
+    ]
+  ],
+  "visual_meshes": 28,
+  "colliders": 7,
+  "dependencies": [],
+  "unresolved": [],
+  "simready_certified": false
+}

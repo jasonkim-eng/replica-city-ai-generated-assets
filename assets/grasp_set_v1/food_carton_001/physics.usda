@@ -1,0 +1,54 @@
+#usda 1.0
+(
+    defaultPrim = "food_carton_001"
+    kilogramsPerUnit = 1
+    metersPerUnit = 1
+    upAxis = "Z"
+)
+
+def Xform "food_carton_001" (
+    prepend apiSchemas = ["PhysicsRigidBodyAPI", "PhysicsMassAPI", "SemanticsLabelsAPI:class", "MaterialBindingAPI"]
+    kind = "component"
+)
+{
+    rel material:binding:physics = </food_carton_001/physics_materials/surface>
+    point3f physics:centerOfMass = (3.1511642e-19, 0, 0.06)
+    float3 physics:diagonalInertia = (0.000089375, 0.00022, 0.000265375)
+    bool physics:kinematicEnabled = 0
+    float physics:mass = 0.165
+    quatf physics:principalAxes = (-0.5, -0.5, -0.5, 0.5)
+    bool physics:rigidBodyEnabled = 1
+    token[] semantics:labels:class = ["food_carton"]
+
+    def "physics_materials"
+    {
+        def Material "surface" (
+            prepend apiSchemas = ["PhysicsMaterialAPI"]
+        )
+        {
+            float physics:dynamicFriction = 0.45
+            float physics:restitution = 0.05
+            float physics:staticFriction = 0.55
+        }
+    }
+
+    def Scope "colliders"
+    {
+        def Mesh "body" (
+            prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMeshCollisionAPI", "MaterialBindingAPI"]
+        )
+        {
+            float3[] extent = [(-0.035, -0.02, 0), (0.035, 0.02, 0.12)]
+            int[] faceVertexCounts = [4, 4, 4, 4, 4, 4]
+            int[] faceVertexIndices = [3, 2, 1, 0, 0, 1, 5, 4, 1, 2, 6, 5, 2, 3, 7, 6, 3, 0, 4, 7, 4, 5, 6, 7]
+            rel material:binding:physics = </food_carton_001/physics_materials/surface>
+            uniform token physics:approximation = "convexHull"
+            bool physics:collisionEnabled = 1
+            point3f[] points = [(-0.035, -0.02, 0), (0.035, -0.02, 0), (0.035, 0.02, 0), (-0.035, 0.02, 0), (-0.035, -0.02, 0.12), (0.035, -0.02, 0.12), (0.035, 0.02, 0.12), (-0.035, 0.02, 0.12)]
+            uniform token purpose = "guide"
+            uniform token subdivisionScheme = "none"
+            token visibility = "invisible"
+        }
+    }
+}
+

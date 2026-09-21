@@ -1,0 +1,54 @@
+{
+  "asset_id": "food_can_001",
+  "entrypoint": "food_can_001.usda",
+  "mass_kg": 0.349,
+  "mass_provenance": {
+    "mass_kg": 0.349,
+    "state": "sealed, filled tomato soup can",
+    "method": "YCB tomato soup can total mass 349 g, used as a close dimensional analogue to this 65 mm diameter x 100 mm can.",
+    "reference_type": "published robotics benchmark total mass adopted for a comparable object",
+    "source_urls": [
+      "https://journals.sagepub.com/doi/10.1177/0278364917700714",
+      "https://www.campbellsfoodservice.com/product/campbells-condensed-tomato-soup-10-75-oz-can-12-pack/"
+    ],
+    "notes": "Printed 305 g denotes contents only (10.75 oz, rounded); USD mass includes the can. Contents are represented as a single rigid body."
+  },
+  "physical_material": {
+    "static_friction": 0.5,
+    "dynamic_friction": 0.4,
+    "restitution": 0.06
+  },
+  "physical_material_provenance": "engineering starting estimates; pair-dependent and uncalibrated",
+  "center_of_mass_m": [
+    -2.7999013964753087e-19,
+    -1.1574592380072035e-18,
+    0.05000000000000012
+  ],
+  "principal_inertia_kg_m2": [
+    0.0001837900097590508,
+    0.0003827283382128551,
+    0.00038272833821285517
+  ],
+  "inertia_provenance": "uniform-density integration of collision proxies; overlapping compound parts counted additively",
+  "collision_proxy_volume_m3": 0.0003308838972778308,
+  "collider_count": 1,
+  "semantic_class": "food_can",
+  "deformation_modeled": false,
+  "grasp_tested": false,
+  "simready_certified": false,
+  "source_job": "artifacts/jobs/20260920T071631Z-7d2c9e79/food_can_001",
+  "limitations": [
+    "Rigid approximation; no crushing, breakage, liquids or electronics behavior.",
+    "Visual micro-details are omitted from collision where not contact-critical.",
+    "No task-specific robot grasp success claim."
+  ],
+  "simulation_validation": {
+    "isaac_version": "6.0.0.1",
+    "physics_hz": 480,
+    "drop_trials_passed": 3,
+    "drop_trials_total": 3,
+    "all_drop_checks_passed": true,
+    "failed_checks": [],
+    "robot_grasp_tested": false
+  }
+}

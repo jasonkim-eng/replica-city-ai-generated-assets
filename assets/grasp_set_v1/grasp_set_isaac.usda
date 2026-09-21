@@ -1,0 +1,107 @@
+#usda 1.0
+(
+    customLayerData = {
+        string camera_prim = "/World/catalog_camera"
+        string purpose = "Five research objects on a static floor; not a robot-grasp test."
+    }
+    defaultPrim = "World"
+    kilogramsPerUnit = 1
+    metersPerUnit = 1
+    upAxis = "Z"
+)
+
+def Xform "World"
+{
+    def Xform "wood_block_001" (
+        prepend references = @wood_block_001/wood_block_001_isaac.usda@
+    )
+    {
+        double3 xformOp:translate = (-0.2, -0.055, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+
+    def Xform "food_carton_001" (
+        prepend references = @food_carton_001/food_carton_001_isaac.usda@
+    )
+    {
+        double3 xformOp:translate = (-0.14, 0.058, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+
+    def Xform "food_can_001" (
+        prepend references = @food_can_001/food_can_001_isaac.usda@
+    )
+    {
+        double3 xformOp:translate = (-0.012, 0.055, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+
+    def Xform "ceramic_mug_001" (
+        prepend references = @ceramic_mug_001/ceramic_mug_001_isaac.usda@
+    )
+    {
+        double3 xformOp:translate = (0.12, 0.05, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+
+    def Xform "cell_phone_001" (
+        prepend references = @cell_phone_001/cell_phone_001_isaac.usda@
+    )
+    {
+        double3 xformOp:translate = (0.035, -0.105, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+
+    def PhysicsScene "physics_scene" (
+        prepend apiSchemas = ["PhysxSceneAPI"]
+    )
+    {
+        vector3f physics:gravityDirection = (0, 0, -1)
+        float physics:gravityMagnitude = 9.81
+        custom uint physxScene:timeStepsPerSecond = 480
+    }
+
+    def Cube "floor" (
+        prepend apiSchemas = ["PhysicsCollisionAPI", "PhysxCollisionAPI", "MaterialBindingAPI"]
+    )
+    {
+        rel material:binding:physics = </World/floor_material>
+        custom float physxCollision:contactOffset = 0.001
+        custom float physxCollision:restOffset = 0
+        color3f[] primvars:displayColor = [(0.27, 0.3, 0.32)]
+        double size = 1
+        float3 xformOp:scale = (3, 3, 0.05)
+        double3 xformOp:translate = (0, 0, -0.025)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+    }
+
+    def Material "floor_material" (
+        prepend apiSchemas = ["PhysicsMaterialAPI"]
+    )
+    {
+        float physics:dynamicFriction = 0.5
+        float physics:restitution = 0
+        float physics:staticFriction = 0.5
+    }
+
+    def DomeLight "dome"
+    {
+        float inputs:intensity = 500
+    }
+
+    def DistantLight "key"
+    {
+        float inputs:intensity = 2200
+        float3 xformOp:rotateXYZ = (-35, 20, 15)
+        uniform token[] xformOpOrder = ["xformOp:rotateXYZ"]
+    }
+
+    def Camera "catalog_camera"
+    {
+        float2 clippingRange = (0.001, 100)
+        float focalLength = 55
+        matrix4d xformOp:transform = ( (0.8132594943564896, 0.5819011899274883, 1.9463808039573175e-17, 0), (-0.2764247163801708, 0.3863285192783109, 0.8799657103355615, -0), (0.5120530939396508, -0.715640468638548, 0.4750372076307604, 0), (0.39999999999999997, -0.58, 0.43000000000000005, 1) )
+        uniform token[] xformOpOrder = ["xformOp:transform"]
+    }
+}
+

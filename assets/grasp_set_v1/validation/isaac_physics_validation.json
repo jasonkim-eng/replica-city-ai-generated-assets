@@ -1,0 +1,611 @@
+{
+  "passed": false,
+  "isaac_version": "6.0.0.1",
+  "physics_dt": 0.0020833333333333333,
+  "simulated_seconds": 6.0,
+  "drop_height_m": 0.05,
+  "trials": [
+    {
+      "asset_id": "wood_block_001",
+      "pose": 0,
+      "path": "/World/test_0_0",
+      "passed": true,
+      "checks": {
+        "finite": true,
+        "not_fallen_through": true,
+        "near_floor": true,
+        "settled_last_second": true,
+        "low_linear_speed": true,
+        "low_angular_speed": true,
+        "contact_force_recorded": true,
+        "actually_dropped": true
+      },
+      "bottom_z_m": -6.728247447062727e-09,
+      "last_second_translation_range_m": 1.910550935235733e-07,
+      "linear_speed_m_s": 0.000774032378103584,
+      "angular_speed_rad_s": 0.000859830470290035,
+      "final_position_m": [
+        -0.5200002789497375,
+        -0.32001641392707825,
+        1.862645149230957e-09
+      ],
+      "final_quaternion_wxyz": [
+        1.0,
+        -7.808253599250747e-08,
+        9.516966770206636e-08,
+        -3.923071199096739e-05
+      ],
+      "mean_net_contact_force_n": [
+        3.315263796821455e-08,
+        1.061145411540565e-07,
+        0.5085861682891846
+      ]
+    },
+    {
+      "asset_id": "wood_block_001",
+      "pose": 1,
+      "path": "/World/test_0_1",
+      "passed": true,
+      "checks": {
+        "finite": true,
+        "not_fallen_through": true,
+        "near_floor": true,
+        "settled_last_second": true,
+        "low_linear_speed": true,
+        "low_angular_speed": true,
+        "contact_force_recorded": true,
+        "actually_dropped": true
+      },
+      "bottom_z_m": -6.58682149613091e-09,
+      "last_second_translation_range_m": 1.2219861389439757e-07,
+      "linear_speed_m_s": 0.0007745320908725262,
+      "angular_speed_rad_s": 0.0014724198263138533,
+      "final_position_m": [
+        -0.5361449122428894,
+        0.01408848911523819,
+        -2.7939677238464355e-09
+      ],
+      "final_quaternion_wxyz": [
+        0.999771773815155,
+        7.932060697157794e-08,
+        1.0949396944681666e-08,
+        -0.021367467939853668
+      ],
+      "mean_net_contact_force_n": [
+        -4.774870721035995e-09,
+        9.203515105582483e-08,
+        0.508683443069458
+      ]
+    },
+    {
+      "asset_id": "wood_block_001",
+      "pose": 2,
+      "path": "/World/test_0_2",
+      "passed": true,
+      "checks": {
+        "finite": true,
+        "not_fallen_through": true,
+        "near_floor": true,
+        "settled_last_second": true,
+        "low_linear_speed": true,
+        "low_angular_speed": true,
+        "contact_force_recorded": true,
+        "actually_dropped": true
+      },
+      "bottom_z_m": -8.537433789784776e-08,
+      "last_second_translation_range_m": 9.313225746154785e-09,
+      "linear_speed_m_s": 0.000782911607529968,
+      "angular_speed_rad_s": 0.00031439520535059273,
+      "final_position_m": [
+        -0.5199999213218689,
+        0.31999972462654114,
+        0.019999917596578598
+      ],
+      "final_quaternion_wxyz": [
+        0.70710688829422,
+        0.7071067690849304,
+        -2.8311055189078616e-07,
+        -2.6489641413718346e-07
+      ],
+      "mean_net_contact_force_n": [
+        -5.940209657495643e-09,
+        2.6213854198431363e-07,
+        0.5084365010261536
+      ]
+    },
+    {
+      "asset_id": "food_carton_001",
+      "pose": 0,
+      "path": "/World/test_1_0",
+      "passed": true,
+      "checks": {
+        "finite": true,
+        "not_fallen_through": true,
+        "near_floor": true,
+        "settled_last_second": true,
+        "low_linear_speed": true,
+        "low_angular_speed": true,
+        "contact_force_recorded": true,
+        "actually_dropped": true
+      },
+      "bottom_z_m": -5.984860877171227e-07,
+      "last_second_translation_range_m": 6.757064596740747e-08,
+      "linear_speed_m_s": 0.0006357916863635182,
+      "angular_speed_rad_s": 0.0031236798968166113,
+      "final_position_m": [
+        -0.2599935829639435,
+        -0.32002967596054077,
+        -8.568167686462402e-08
+      ],
+      "final_quaternion_wxyz": [
+        1.0,
+        -2.9355287551879883e-06,
+        1.7881393432617188e-07,
+        -3.769993782043457e-06
+      ],
+      "mean_net_contact_force_n": [
+        5.885579525966023e-07,
+        9.454916835238691e-06,
+        1.6186459064483643
+      ]
+    },
+    {
+      "asset_id": "food_carton_001",
+      "pose": 1,
+      "path": "/World/test_1_1",
+      "passed": true,
+      "checks": {
+        "finite": true,
+        "not_fallen_through": true,
+        "near_floor": true,
+        "settled_last_second": true,
+        "low_linear_speed": true,
+        "low_angular_speed": true,
+        "contact_force_recorded": true,
+        "actually_dropped": true
+      },
+      "bottom_z_m": -6.012235360560183e-07,
+      "last_second_translation_range_m": 0.0,
+      "linear_speed_m_s": 0.0006027573836036026,
+      "angular_speed_rad_s": 0.0032668416388332844,
+      "final_position_m": [
+        -0.26588869094848633,
+        0.0023443347308784723,
+        -8.195638656616211e-08
+      ],
+      "final_quaternion_wxyz": [
+        0.9999982714653015,
+        -2.950429916381836e-06,
+        2.682209014892578e-07,
+        0.001889944076538086
+      ],
+      "mean_net_contact_force_n": [
+        -3.6751149309566244e-05,
+        0.012429176829755306,
+        1.6185414791107178
+      ]
+    },
+    {
+      "asset_id": "food_carton_001",
+      "pose": 2,
+      "path": "/World/test_1_2",
+      "passed": true,
+      "checks": {
+        "finite": true,
+        "not_fallen_through": true,
+        "near_floor": true,
+        "settled_last_second": true,
+        "low_linear_speed": true,
+        "low_angular_speed": true,
+        "contact_force_recorded": true,
+        "actually_dropped": true
+      },
+      "bottom_z_m": -0.00031991315208860713,
+      "last_second_translation_range_m": 1.2561466178340197e-07,
+      "linear_speed_m_s": 0.0004807174555025995,
+      "angular_speed_rad_s": 0.0004991411115042865,
+      "final_position_m": [
+        -0.26000168919563293,
+        0.31999918818473816,
+        0.019999898970127106
+      ],
+      "final_quaternion_wxyz": [
+        0.70710688829422,
+        0.7071067690849304,
+        -3.3676624298095703e-06,
+        -3.546476364135742e-06
+      ],
+      "mean_net_contact_force_n": [
+        2.5147843984996143e-07,
+        7.525231353611161e-07,
+        1.6185226440429688
+      ]
+    },
+    {
+      "asset_id": "food_can_001",
+      "pose": 0,
+      "path": "/World/test_2_0",
+      "passed": true,
+      "checks": {
+        "finite": true,
+        "not_fallen_through": true,
+        "near_floor": true,
+        "settled_last_second": true,
+        "low_linear_speed": true,
+        "low_angular_speed": true,
+        "contact_force_recorded": true,
+        "actually_dropped": true
+      },
+      "bottom_z_m": -6.372112708819387e-09,
+      "last_second_translation_range_m": 1.7053025658242404e-13,
+      "linear_speed_m_s": 0.0005945675075054169,
+      "angular_speed_rad_s": 6.472995301010087e-05,
+      "final_position_m": [
+        6.547485043029155e-08,
+        -0.3200002908706665,
+        -3.725290298461914e-09
+      ],
+      "final_quaternion_wxyz": [
+        1.0000001192092896,
+        -2.9802322387695312e-08,
+        -2.9802322387695312e-08,
+        -2.205371856689453e-06
+      ],
+      "mean_net_contact_force_n": [
+        -1.0203346079151743e-07,
+        2.040679021320102e-07,
+        3.4236903190612793
+      ]
+    },
+    {
+      "asset_id": "food_can_001",
+      "pose": 1,
+      "path": "/World/test_2_1",
+      "passed": true,
+      "checks": {
+        "finite": true,
+        "not_fallen_through": true,
+        "near_floor": true,
+        "settled_last_second": true,
+        "low_linear_speed": true,
+        "low_angular_speed": true,
+        "contact_force_recorded": true,
+        "actually_dropped": true
+      },
+      "bottom_z_m": -6.947725707041254e-08,
+      "last_second_translation_range_m": 0.0,
+      "linear_speed_m_s": 0.000595871068071574,
+      "angular_speed_rad_s": 0.00038215448148548603,
+      "final_position_m": [
+        -0.002377253957092762,
+        0.0038207878824323416,
+        1.0803341865539551e-07
+      ],
+      "final_quaternion_wxyz": [
+        0.996851921081543,
+        -2.086162567138672e-06,
+        1.9073486328125e-06,
+        -0.07928551733493805
+      ],
+      "mean_net_contact_force_n": [
+        0.0034895751159638166,
+        0.06732456386089325,
+        3.4223618507385254
+      ]
+    },
+    {
+      "asset_id": "food_can_001",
+      "pose": 2,
+      "path": "/World/test_2_2",
+      "passed": true,
+      "checks": {
+        "finite": true,
+        "not_fallen_through": true,
+        "near_floor": true,
+        "settled_last_second": true,
+        "low_linear_speed": true,
+        "low_angular_speed": true,
+        "contact_force_recorded": true,
+        "actually_dropped": true
+      },
+      "bottom_z_m": -0.000624549390654025,
+      "last_second_translation_range_m": 9.53794824454235e-07,
+      "linear_speed_m_s": 0.0005853284383192658,
+      "angular_speed_rad_s": 0.0005427378928288817,
+      "final_position_m": [
+        -0.006179436109960079,
+        0.31998640298843384,
+        0.03187547251582146
+      ],
+      "final_quaternion_wxyz": [
+        0.703748881816864,
+        0.7036543488502502,
+        -0.0697903037071228,
+        0.06882798671722412
+      ],
+      "mean_net_contact_force_n": [
+        -0.054960161447525024,
+        7.22530676284805e-05,
+        3.4226462841033936
+      ]
+    },
+    {
+      "asset_id": "ceramic_mug_001",
+      "pose": 0,
+      "path": "/World/test_3_0",
+      "passed": true,
+      "checks": {
+        "finite": true,
+        "not_fallen_through": true,
+        "near_floor": true,
+        "settled_last_second": true,
+        "low_linear_speed": true,
+        "low_angular_speed": true,
+        "contact_force_recorded": true,
+        "actually_dropped": true
+      },
+      "bottom_z_m": -1.567128745448568e-08,
+      "last_second_translation_range_m": 0.0,
+      "linear_speed_m_s": 0.0004778915026690811,
+      "angular_speed_rad_s": 0.0010177529184147716,
+      "final_position_m": [
+        0.25999391078948975,
+        -0.31999820470809937,
+        -3.725290298461914e-09
+      ],
+      "final_quaternion_wxyz": [
+        1.0000001192092896,
+        8.940696716308594e-08,
+        -1.6391277313232422e-07,
+        -1.6227364540100098e-05
+      ],
+      "mean_net_contact_force_n": [
+        -9.497454129814287e-07,
+        -4.316842137086496e-07,
+        2.8970866203308105
+      ]
+    },
+    {
+      "asset_id": "ceramic_mug_001",
+      "pose": 1,
+      "path": "/World/test_3_1",
+      "passed": true,
+      "checks": {
+        "finite": true,
+        "not_fallen_through": true,
+        "near_floor": true,
+        "settled_last_second": true,
+        "low_linear_speed": true,
+        "low_angular_speed": true,
+        "contact_force_recorded": true,
+        "actually_dropped": true
+      },
+      "bottom_z_m": -1.824549873073467e-08,
+      "last_second_translation_range_m": 1.822348707491983e-07,
+      "linear_speed_m_s": 0.0004926404217258096,
+      "angular_speed_rad_s": 0.0024366111028939486,
+      "final_position_m": [
+        0.25754326581954956,
+        0.005304692778736353,
+        -3.725290298461914e-09
+      ],
+      "final_quaternion_wxyz": [
+        0.9892460107803345,
+        -2.086162567138672e-07,
+        -8.940696716308594e-08,
+        -0.146261528134346
+      ],
+      "mean_net_contact_force_n": [
+        -0.0008638271829113364,
+        0.0033175728749483824,
+        2.8943417072296143
+      ]
+    },
+    {
+      "asset_id": "ceramic_mug_001",
+      "pose": 2,
+      "path": "/World/test_3_2",
+      "passed": true,
+      "checks": {
+        "finite": true,
+        "not_fallen_through": true,
+        "near_floor": true,
+        "settled_last_second": true,
+        "low_linear_speed": true,
+        "low_angular_speed": true,
+        "contact_force_recorded": true,
+        "actually_dropped": true
+      },
+      "bottom_z_m": -0.00046807130407997,
+      "last_second_translation_range_m": 2.893282271543285e-07,
+      "linear_speed_m_s": 0.0004998762160539627,
+      "angular_speed_rad_s": 0.00042124345782212913,
+      "final_position_m": [
+        0.27569150924682617,
+        0.32233384251594543,
+        0.03340316563844681
+      ],
+      "final_quaternion_wxyz": [
+        0.7138181328773499,
+        0.6635385751724243,
+        0.16395214200019836,
+        -0.15264374017715454
+      ],
+      "mean_net_contact_force_n": [
+        0.0008945280569605529,
+        2.4229357222793624e-05,
+        2.8942408561706543
+      ]
+    },
+    {
+      "asset_id": "cell_phone_001",
+      "pose": 0,
+      "path": "/World/test_4_0",
+      "passed": false,
+      "checks": {
+        "finite": true,
+        "not_fallen_through": true,
+        "near_floor": true,
+        "settled_last_second": true,
+        "low_linear_speed": true,
+        "low_angular_speed": false,
+        "contact_force_recorded": true,
+        "actually_dropped": true
+      },
+      "bottom_z_m": -7.737651550588363e-05,
+      "last_second_translation_range_m": 7.623639248777181e-06,
+      "linear_speed_m_s": 0.000866722606588155,
+      "angular_speed_rad_s": 0.1241535171866417,
+      "final_position_m": [
+        0.5199833512306213,
+        -0.3200018107891083,
+        -0.0005610431544482708
+      ],
+      "final_quaternion_wxyz": [
+        0.9999778866767883,
+        0.006642492953687906,
+        0.0005217319121584296,
+        0.00010719895362854004
+      ],
+      "mean_net_contact_force_n": [
+        -1.549670378153678e-05,
+        8.586716830905061e-06,
+        1.8533270359039307
+      ]
+    },
+    {
+      "asset_id": "cell_phone_001",
+      "pose": 1,
+      "path": "/World/test_4_1",
+      "passed": false,
+      "checks": {
+        "finite": true,
+        "not_fallen_through": true,
+        "near_floor": true,
+        "settled_last_second": true,
+        "low_linear_speed": true,
+        "low_angular_speed": false,
+        "contact_force_recorded": true,
+        "actually_dropped": true
+      },
+      "bottom_z_m": -6.279893285358114e-05,
+      "last_second_translation_range_m": 1.1256518519076053e-05,
+      "linear_speed_m_s": 0.0007299365242943168,
+      "angular_speed_rad_s": 0.14295823872089386,
+      "final_position_m": [
+        0.5176629424095154,
+        0.004317927174270153,
+        -0.0005617779679596424
+      ],
+      "final_quaternion_wxyz": [
+        0.9994884133338928,
+        0.006331034004688263,
+        0.0012724946718662977,
+        -0.03132924437522888
+      ],
+      "mean_net_contact_force_n": [
+        -3.284169360995293e-05,
+        -8.042747140279971e-06,
+        1.8357603549957275
+      ]
+    },
+    {
+      "asset_id": "cell_phone_001",
+      "pose": 2,
+      "path": "/World/test_4_2",
+      "passed": true,
+      "checks": {
+        "finite": true,
+        "not_fallen_through": true,
+        "near_floor": true,
+        "settled_last_second": true,
+        "low_linear_speed": true,
+        "low_angular_speed": true,
+        "contact_force_recorded": true,
+        "actually_dropped": true
+      },
+      "bottom_z_m": -5.5001121607056724e-05,
+      "last_second_translation_range_m": 9.88431224868691e-07,
+      "linear_speed_m_s": 0.00032294722041115165,
+      "angular_speed_rad_s": 0.0017167865298688412,
+      "final_position_m": [
+        0.5199998021125793,
+        0.3200000822544098,
+        0.07600004971027374
+      ],
+      "final_quaternion_wxyz": [
+        0.7071067690849304,
+        0.7071068286895752,
+        -1.8180871848016977e-06,
+        -5.960464477539063e-08
+      ],
+      "mean_net_contact_force_n": [
+        -5.427035830507521e-06,
+        -4.46443578994149e-07,
+        1.8350414037704468
+      ]
+    }
+  ],
+  "mug_cavity_test": {
+    "probe_radius_m": 0.005,
+    "probe_initial_z_m": 0.15,
+    "probe_final_position_m": [
+      0.8500000238418579,
+      3.9333819586317986e-05,
+      0.011000004597008228
+    ],
+    "probe_reached_inner_floor": true,
+    "handle_center_ray_clear": true,
+    "handle_ray_origin_m": [
+      0.906,
+      -0.06,
+      0.049
+    ],
+    "handle_ray_direction": [
+      0,
+      1,
+      0
+    ],
+    "handle_ray_length_m": 0.12
+  },
+  "physx_profile": {
+    "contact_offset_m": 0.001,
+    "rest_offset_m": 0.0,
+    "solver_position_iterations": 16,
+    "solver_velocity_iterations": 4,
+    "contact_sensor_disables_stabilization": false
+  },
+  "entrypoint_suffix": "_isaac.usda",
+  "source_usd_sha256": {
+    "cell_phone_001/cell_phone_001.usda": "ec109e029a0a0b8f705016874b5f485ef971673f9f809612870a07402f423f80",
+    "cell_phone_001/cell_phone_001_isaac.usda": "c9771c93ef0e936bef15f6457ae9329d33dddf46d4fb261d2d218da01cf2ced4",
+    "cell_phone_001/isaac_physics.usda": "02e0fb72b0a53f9185de5a51379e39a8dac2537fa3fe965d3a36c96373f85370",
+    "cell_phone_001/physics.usda": "ad019234bc2e28ad21f1c92e283b7cabec5fc8ddacf92645905de7906e3d8837",
+    "cell_phone_001/visual.usdc": "4a2af3dea05bd92f03c432a004861138b0dca70f77c135201fc0c11a14af16b1",
+    "ceramic_mug_001/ceramic_mug_001.usda": "abc199cf7a35cd70f8f8d081a5ee259a8e808710f67fa0eb5e89271dc5642efa",
+    "ceramic_mug_001/ceramic_mug_001_isaac.usda": "6f4cbf709bbbdb9666be9ff379d2db7533925e1b73c07495826eb955bba9dbcb",
+    "ceramic_mug_001/isaac_physics.usda": "c36eef1064eeff97d95f8a80db1c064fd88ec49b02ea51cbc749136b5ea41bd1",
+    "ceramic_mug_001/physics.usda": "d7db6d693a9d782b260aaab127e17208714269283d296cf8ca56b2686a0cbe8a",
+    "ceramic_mug_001/visual.usdc": "a90c2294dbce8b84c0fb93f9a42b6b37a2e183d0bf16f0e982a539e21ba13c55",
+    "food_can_001/food_can_001.usda": "3508ff44828cc98f8c3323006dc29191a670224bff474a110065eaf5e61fbc2f",
+    "food_can_001/food_can_001_isaac.usda": "f4292db1f8b1d7510fcca352fc3173048fd8586e63165981faebd788735aca80",
+    "food_can_001/isaac_physics.usda": "587f92719b17be86d6af75962d2849b23ff04c3538b06cbc9fadf96c5ba07f51",
+    "food_can_001/physics.usda": "a25fa7b0a0031d96da929f5f4572b724df0302a90e3c8d28d3a68a69606fccb7",
+    "food_can_001/visual.usdc": "3c6e7f97065a96008c25f3a34271348e58c0238047d9836ab45c2c4311ee5298",
+    "food_carton_001/food_carton_001.usda": "2316c3f54e50ade3ce191233f9758e7bd77907fc6569e033a3fe45c3eaf766b1",
+    "food_carton_001/food_carton_001_isaac.usda": "1b4194b8087c69706d765e672dd8871e17ffa863decdaff81d8c013e9765acce",
+    "food_carton_001/isaac_physics.usda": "3a36e239b5ef5b739df5574a64fab3b72dc6efea0abc1fb7eec499c9692525f4",
+    "food_carton_001/physics.usda": "38232a6d2c86b0ab60e4f468666792ebd60512242d77022b407779e52d629356",
+    "food_carton_001/visual.usdc": "9e5dc5a6c92a8f306a95e83f0e5f4fdaf0fdb613359117d69b02dd5f0b23b0dd",
+    "grasp_set_isaac.usda": "24947709c5df8cf75f97bdf5d9141200542e54e505b8f06f579a3d77de57bf6e",
+    "wood_block_001/isaac_physics.usda": "c9086fd04e7a233147632ccb389df89fa1afba8242c9bc74abadf3378eac3ee2",
+    "wood_block_001/physics.usda": "3b1a9b231cf85c1a0072133135ea98b3ffe0e749395b28f3e0e6f0e742ccdffc",
+    "wood_block_001/visual.usdc": "e1ff20638d10d532fc3c9b46169c58a6d31eca8fb439b18c1d3e27c9147287a2",
+    "wood_block_001/wood_block_001.usda": "229986ebb97531e34a2cdacfab5925793a33e1ae359786cbfa970819b5d59294",
+    "wood_block_001/wood_block_001_isaac.usda": "4386ddf13e94e0d5701a3546926718f6baa384e6f2ce2bc73e976f2e591e8214"
+  },
+  "robot_grasp_tested": false,
+  "simready_certified": false,
+  "scope": "Drop/rest and mug cavity contact tests only; no robot, calibrated friction, fracture or compliance.",
+  "wall_seconds": 73.723
+}

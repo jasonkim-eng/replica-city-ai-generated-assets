@@ -1,0 +1,170 @@
+{
+  "asset_id": "cell_phone_001",
+  "scene": "research_cell_phone_001.003",
+  "output_dir": ".",
+  "blend_path": "authoring.blend",
+  "usd_path": "visual.usdc",
+  "bounds_m": [
+    [
+      -0.03750000149011612,
+      -0.07605499774217606,
+      0.0
+    ],
+    [
+      0.03750000149011612,
+      0.07599999755620956,
+      0.01054999977350235
+    ]
+  ],
+  "dimensions_m": [
+    0.07500000298023224,
+    0.15205499529838562,
+    0.01054999977350235
+  ],
+  "objects": [
+    {
+      "name": "cell_phone_001_frame.003",
+      "vertices": 288,
+      "faces": 254
+    },
+    {
+      "name": "cell_phone_001_back_glass.003",
+      "vertices": 72,
+      "faces": 38
+    },
+    {
+      "name": "cell_phone_001_front_glass.003",
+      "vertices": 288,
+      "faces": 254
+    },
+    {
+      "name": "cell_phone_001_screen_inset.003",
+      "vertices": 72,
+      "faces": 38
+    },
+    {
+      "name": "cell_phone_001_camera_island.003",
+      "vertices": 72,
+      "faces": 38
+    },
+    {
+      "name": "cell_phone_001_rear_lens_rim_0.003",
+      "vertices": 256,
+      "faces": 256
+    },
+    {
+      "name": "cell_phone_001_rear_lens_glass_0.003",
+      "vertices": 130,
+      "faces": 192
+    },
+    {
+      "name": "cell_phone_001_rear_lens_inner_0.003",
+      "vertices": 1152,
+      "faces": 1152
+    },
+    {
+      "name": "cell_phone_001_rear_lens_rim_1.003",
+      "vertices": 256,
+      "faces": 256
+    },
+    {
+      "name": "cell_phone_001_rear_lens_glass_1.003",
+      "vertices": 130,
+      "faces": 192
+    },
+    {
+      "name": "cell_phone_001_rear_lens_inner_1.003",
+      "vertices": 1152,
+      "faces": 1152
+    },
+    {
+      "name": "cell_phone_001_rear_flash.003",
+      "vertices": 66,
+      "faces": 96
+    },
+    {
+      "name": "cell_phone_001_front_camera.003",
+      "vertices": 66,
+      "faces": 96
+    },
+    {
+      "name": "cell_phone_001_earpiece.003",
+      "vertices": 96,
+      "faces": 98
+    },
+    {
+      "name": "cell_phone_001_power_button.003",
+      "vertices": 96,
+      "faces": 98
+    },
+    {
+      "name": "cell_phone_001_volume_button_0.003",
+      "vertices": 96,
+      "faces": 98
+    },
+    {
+      "name": "cell_phone_001_volume_button_1.003",
+      "vertices": 96,
+      "faces": 98
+    },
+    {
+      "name": "cell_phone_001_usb_c_socket.003",
+      "vertices": 96,
+      "faces": 98
+    },
+    {
+      "name": "cell_phone_001_speaker_-1_0.003",
+      "vertices": 96,
+      "faces": 98
+    },
+    {
+      "name": "cell_phone_001_speaker_1_0.003",
+      "vertices": 96,
+      "faces": 98
+    },
+    {
+      "name": "cell_phone_001_speaker_-1_1.003",
+      "vertices": 96,
+      "faces": 98
+    },
+    {
+      "name": "cell_phone_001_speaker_1_1.003",
+      "vertices": 96,
+      "faces": 98
+    },
+    {
+      "name": "cell_phone_001_speaker_-1_2.003",
+      "vertices": 96,
+      "faces": 98
+    },
+    {
+      "name": "cell_phone_001_speaker_1_2.003",
+      "vertices": 96,
+      "faces": 98
+    },
+    {
+      "name": "cell_phone_001_speaker_-1_3.003",
+      "vertices": 96,
+      "faces": 98
+    },
+    {
+      "name": "cell_phone_001_speaker_1_3.003",
+      "vertices": 96,
+      "faces": 98
+    },
+    {
+      "name": "cell_phone_001_speaker_-1_4.003",
+      "vertices": 96,
+      "faces": 98
+    },
+    {
+      "name": "cell_phone_001_speaker_1_4.003",
+      "vertices": 96,
+      "faces": 98
+    }
+  ],
+  "export_finished": true,
+  "physics_authored": false,
+  "simready_validated": false,
+  "path_policy": "Paths describe packaged files; original job locations were removed."
+}

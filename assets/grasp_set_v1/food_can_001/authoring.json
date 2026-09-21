@@ -1,0 +1,135 @@
+{
+  "asset_id": "food_can_001",
+  "scene": "research_food_can_001.003",
+  "output_dir": ".",
+  "blend_path": "authoring.blend",
+  "usd_path": "visual.usdc",
+  "bounds_m": [
+    [
+      -0.032499998807907104,
+      -0.032499998807907104,
+      0.0
+    ],
+    [
+      0.032499998807907104,
+      0.032499998807907104,
+      0.09999999403953552
+    ]
+  ],
+  "dimensions_m": [
+    0.06499999761581421,
+    0.06499999761581421,
+    0.09999999403953552
+  ],
+  "objects": [
+    {
+      "name": "food_can_001_sealed_steel_body.004",
+      "vertices": 194,
+      "faces": 288
+    },
+    {
+      "name": "food_can_001_bottom_rolled_seam.004",
+      "vertices": 1152,
+      "faces": 1152
+    },
+    {
+      "name": "food_can_001_top_rolled_seam.004",
+      "vertices": 1152,
+      "faces": 1152
+    },
+    {
+      "name": "food_can_001_top_inset_lid.004",
+      "vertices": 194,
+      "faces": 288
+    },
+    {
+      "name": "food_can_001_bottom_inset_lid.004",
+      "vertices": 194,
+      "faces": 288
+    },
+    {
+      "name": "food_can_001_lid_groove_0.004",
+      "vertices": 1152,
+      "faces": 1152
+    },
+    {
+      "name": "food_can_001_lid_groove_1.004",
+      "vertices": 1152,
+      "faces": 1152
+    },
+    {
+      "name": "food_can_001_lid_groove_2.004",
+      "vertices": 1152,
+      "faces": 1152
+    },
+    {
+      "name": "food_can_001_pull_tab.004",
+      "vertices": 1152,
+      "faces": 1152
+    },
+    {
+      "name": "food_can_001_pull_tab_rivet.004",
+      "vertices": 66,
+      "faces": 96
+    },
+    {
+      "name": "food_can_001_paper_wrap.004",
+      "vertices": 192,
+      "faces": 96
+    },
+    {
+      "name": "food_can_001_cream_band_lower.004",
+      "vertices": 192,
+      "faces": 96
+    },
+    {
+      "name": "food_can_001_cream_band_upper.004",
+      "vertices": 192,
+      "faces": 96
+    },
+    {
+      "name": "food_can_001_mobiltech_official_wordmark",
+      "vertices": 3474,
+      "faces": 6156
+    },
+    {
+      "name": "food_can_001_label_tomato.004",
+      "vertices": 106,
+      "faces": 100
+    },
+    {
+      "name": "food_can_001_label_soup.004",
+      "vertices": 128,
+      "faces": 124
+    },
+    {
+      "name": "food_can_001_label_subtitle.004",
+      "vertices": 236,
+      "faces": 224
+    },
+    {
+      "name": "food_can_001_label_weight.004",
+      "vertices": 252,
+      "faces": 240
+    },
+    {
+      "name": "food_can_001_tomato_line_0.004",
+      "vertices": 390,
+      "faces": 386
+    },
+    {
+      "name": "food_can_001_tomato_line_1.004",
+      "vertices": 390,
+      "faces": 386
+    },
+    {
+      "name": "food_can_001_leaf_mark.004",
+      "vertices": 84,
+      "faces": 82
+    }
+  ],
+  "export_finished": true,
+  "physics_authored": false,
+  "simready_validated": false,
+  "path_policy": "Paths describe packaged files; original job locations were removed."
+}

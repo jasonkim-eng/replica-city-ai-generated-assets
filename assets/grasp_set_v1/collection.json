@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "collection_name": "Replica City AI Generated Assets",
+  "collection_id": "replica_city_ai_generated_assets",
+  "release_version": "1.1.0",
+  "name_assigned_by": "user",
+  "name_assigned_date": "2026-09-20",
+  "research_reference": "Replica City AI Generated Assets v1.1.0",
+  "workspace_relative_path": "assets/grasp_set_v1",
+  "path_policy": "Existing folder, asset IDs and USD filenames retained for backward compatibility.",
+  "guide": "README.md",
+  "validation_manifest": "manifest.json",
+  "provenance": "PROVENANCE.md",
+  "mass_and_branding_sources": "MASS_AND_BRANDING.md",
+  "isaac_scene": "grasp_set_isaac.usda",
+  "blender_showcase": "showcase.blend",
+  "preview": "preview.png",
+  "assets": [
+    {
+      "asset_id": "wood_block_001",
+      "name": "Wood block",
+      "usd": "wood_block_001/wood_block_001.usda",
+      "isaac_usd": "wood_block_001/wood_block_001_isaac.usda",
+      "blend": "wood_block_001/authoring.blend"
+    },
+    {
+      "asset_id": "food_carton_001",
+      "name": "Food carton",
+      "usd": "food_carton_001/food_carton_001.usda",
+      "isaac_usd": "food_carton_001/food_carton_001_isaac.usda",
+      "blend": "food_carton_001/authoring.blend"
+    },
+    {
+      "asset_id": "food_can_001",
+      "name": "Food can",
+      "usd": "food_can_001/food_can_001.usda",
+      "isaac_usd": "food_can_001/food_can_001_isaac.usda",
+      "blend": "food_can_001/authoring.blend"
+    },
+    {
+      "asset_id": "ceramic_mug_001",
+      "name": "Ceramic mug",
+      "usd": "ceramic_mug_001/ceramic_mug_001.usda",
+      "isaac_usd": "ceramic_mug_001/ceramic_mug_001_isaac.usda",
+      "blend": "ceramic_mug_001/authoring.blend"
+    },
+    {
+      "asset_id": "cell_phone_001",
+      "name": "Cell phone",
+      "usd": "cell_phone_001/cell_phone_001.usda",
+      "isaac_usd": "cell_phone_001/cell_phone_001_isaac.usda",
+      "blend": "cell_phone_001/authoring.blend"
+    }
+  ],
+  "provenance_summary": "AI-assisted procedural Blender assets authored through peer Qwen and Blender MCP with supervisor review; generated wood texture and user-requested official MOBILTECH wordmarks.",
+  "distinct_from_original_replicacity_library": true,
+  "simready_certified": false,
+  "robot_grasp_tested": false
+}

@@ -1,0 +1,385 @@
+{
+  "asset_id": "food_carton_001",
+  "scene": "research_food_carton_001.001",
+  "output_dir": ".",
+  "blend_path": "authoring.blend",
+  "usd_path": "visual.usdc",
+  "bounds_m": [
+    [
+      -0.03500000014901161,
+      -0.020319806411862373,
+      -4.999999987376214e-07
+    ],
+    [
+      0.035029999911785126,
+      0.020044999197125435,
+      0.12002450227737427
+    ]
+  ],
+  "dimensions_m": [
+    0.07003000006079674,
+    0.04036480560898781,
+    0.120025002277373
+  ],
+  "objects": [
+    {
+      "name": "food_carton_001_sealed_carton.002",
+      "vertices": 96,
+      "faces": 98
+    },
+    {
+      "name": "food_carton_001_front_print_panel.002",
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "food_carton_001_front_header_band.002",
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "food_carton_001_mobiltech_official_wordmark",
+      "vertices": 4043,
+      "faces": 7214
+    },
+    {
+      "name": "food_carton_001_title_oat.002",
+      "vertices": 51,
+      "faces": 49
+    },
+    {
+      "name": "food_carton_001_title_crackers.002",
+      "vertices": 220,
+      "faces": 210
+    },
+    {
+      "name": "food_carton_001_subtitle.002",
+      "vertices": 159,
+      "faces": 151
+    },
+    {
+      "name": "food_carton_001_weight.002",
+      "vertices": 205,
+      "faces": 193
+    },
+    {
+      "name": "food_carton_001_grain_stalk_0.002",
+      "vertices": 12,
+      "faces": 8
+    },
+    {
+      "name": "food_carton_001_grain_left_0_0.002",
+      "vertices": 12,
+      "faces": 8
+    },
+    {
+      "name": "food_carton_001_grain_right_0_0.002",
+      "vertices": 12,
+      "faces": 8
+    },
+    {
+      "name": "food_carton_001_grain_left_0_1.002",
+      "vertices": 12,
+      "faces": 8
+    },
+    {
+      "name": "food_carton_001_grain_right_0_1.002",
+      "vertices": 12,
+      "faces": 8
+    },
+    {
+      "name": "food_carton_001_grain_left_0_2.002",
+      "vertices": 12,
+      "faces": 8
+    },
+    {
+      "name": "food_carton_001_grain_right_0_2.002",
+      "vertices": 12,
+      "faces": 8
+    },
+    {
+      "name": "food_carton_001_grain_left_0_3.002",
+      "vertices": 12,
+      "faces": 8
+    },
+    {
+      "name": "food_carton_001_grain_right_0_3.002",
+      "vertices": 12,
+      "faces": 8
+    },
+    {
+      "name": "food_carton_001_grain_stalk_1.002",
+      "vertices": 12,
+      "faces": 8
+    },
+    {
+      "name": "food_carton_001_grain_left_1_0.002",
+      "vertices": 12,
+      "faces": 8
+    },
+    {
+      "name": "food_carton_001_grain_right_1_0.002",
+      "vertices": 12,
+      "faces": 8
+    },
+    {
+      "name": "food_carton_001_grain_left_1_1.002",
+      "vertices": 12,
+      "faces": 8
+    },
+    {
+      "name": "food_carton_001_grain_right_1_1.002",
+      "vertices": 12,
+      "faces": 8
+    },
+    {
+      "name": "food_carton_001_grain_left_1_2.002",
+      "vertices": 12,
+      "faces": 8
+    },
+    {
+      "name": "food_carton_001_grain_right_1_2.002",
+      "vertices": 12,
+      "faces": 8
+    },
+    {
+      "name": "food_carton_001_grain_left_1_3.002",
+      "vertices": 12,
+      "faces": 8
+    },
+    {
+      "name": "food_carton_001_grain_right_1_3.002",
+      "vertices": 12,
+      "faces": 8
+    },
+    {
+      "name": "food_carton_001_grain_stalk_2.002",
+      "vertices": 12,
+      "faces": 8
+    },
+    {
+      "name": "food_carton_001_grain_left_2_0.002",
+      "vertices": 12,
+      "faces": 8
+    },
+    {
+      "name": "food_carton_001_grain_right_2_0.002",
+      "vertices": 12,
+      "faces": 8
+    },
+    {
+      "name": "food_carton_001_grain_left_2_1.002",
+      "vertices": 12,
+      "faces": 8
+    },
+    {
+      "name": "food_carton_001_grain_right_2_1.002",
+      "vertices": 12,
+      "faces": 8
+    },
+    {
+      "name": "food_carton_001_grain_left_2_2.002",
+      "vertices": 12,
+      "faces": 8
+    },
+    {
+      "name": "food_carton_001_grain_right_2_2.002",
+      "vertices": 12,
+      "faces": 8
+    },
+    {
+      "name": "food_carton_001_grain_left_2_3.002",
+      "vertices": 12,
+      "faces": 8
+    },
+    {
+      "name": "food_carton_001_grain_right_2_3.002",
+      "vertices": 12,
+      "faces": 8
+    },
+    {
+      "name": "food_carton_001_back_print_panel.002",
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "food_carton_001_nutrition_heading.002",
+      "vertices": 144,
+      "faces": 130
+    },
+    {
+      "name": "food_carton_001_nutrition_0.002",
+      "vertices": 396,
+      "faces": 382
+    },
+    {
+      "name": "food_carton_001_nutrition_1.002",
+      "vertices": 296,
+      "faces": 272
+    },
+    {
+      "name": "food_carton_001_nutrition_2.002",
+      "vertices": 394,
+      "faces": 384
+    },
+    {
+      "name": "food_carton_001_nutrition_3.002",
+      "vertices": 267,
+      "faces": 259
+    },
+    {
+      "name": "food_carton_001_nutrition_4.002",
+      "vertices": 168,
+      "faces": 164
+    },
+    {
+      "name": "food_carton_001_nutrition_5.002",
+      "vertices": 224,
+      "faces": 202
+    },
+    {
+      "name": "food_carton_001_barcode_0.002",
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "food_carton_001_barcode_1.002",
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "food_carton_001_barcode_2.002",
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "food_carton_001_barcode_3.002",
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "food_carton_001_barcode_4.002",
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "food_carton_001_barcode_5.002",
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "food_carton_001_barcode_6.002",
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "food_carton_001_barcode_7.002",
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "food_carton_001_barcode_8.002",
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "food_carton_001_barcode_9.002",
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "food_carton_001_barcode_10.002",
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "food_carton_001_barcode_11.002",
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "food_carton_001_barcode_12.002",
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "food_carton_001_barcode_13.002",
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "food_carton_001_barcode_14.002",
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "food_carton_001_barcode_15.002",
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "food_carton_001_barcode_16.002",
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "food_carton_001_barcode_17.002",
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "food_carton_001_barcode_18.002",
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "food_carton_001_barcode_19.002",
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "food_carton_001_barcode_20.002",
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "food_carton_001_barcode_21.002",
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "food_carton_001_barcode_22.002",
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "food_carton_001_barcode_23.002",
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "food_carton_001_barcode_24.002",
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "food_carton_001_fold_top.002",
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "food_carton_001_fold_bottom.002",
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "food_carton_001_side_glue_seam.002",
+      "vertices": 8,
+      "faces": 6
+    }
+  ],
+  "export_finished": true,
+  "physics_authored": false,
+  "simready_validated": false,
+  "path_policy": "Paths describe packaged files; original job locations were removed."
+}

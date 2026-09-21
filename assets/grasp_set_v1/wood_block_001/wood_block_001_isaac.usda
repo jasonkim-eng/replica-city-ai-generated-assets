@@ -1,0 +1,18 @@
+#usda 1.0
+(
+    defaultPrim = "wood_block_001"
+    kilogramsPerUnit = 1
+    metersPerUnit = 1
+    subLayers = [
+        @isaac_physics.usda@,
+        @wood_block_001.usda@
+    ]
+    upAxis = "Z"
+)
+
+def Xform "wood_block_001" (
+    kind = "component"
+)
+{
+}
+

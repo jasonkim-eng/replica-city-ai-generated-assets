@@ -1,0 +1,53 @@
+{
+  "asset_id": "wood_block_001",
+  "entrypoint": "wood_block_001.usda",
+  "mass_kg": 0.05184,
+  "mass_provenance": {
+    "mass_kg": 0.05184,
+    "state": "solid dry European beech",
+    "method": "Nominal 0.060 x 0.040 x 0.030 m volume x 720 kg/m3 = 0.05184 kg; small bevel volume neglected.",
+    "reference_type": "density-derived estimate, not a weighed specimen",
+    "source_urls": [
+      "https://www.halswelltimber.co.nz/timber-species/beech-european/"
+    ],
+    "notes": "Supplier quotes approximate density at 15% moisture content. Species and moisture cause variation."
+  },
+  "physical_material": {
+    "static_friction": 0.55,
+    "dynamic_friction": 0.45,
+    "restitution": 0.08
+  },
+  "physical_material_provenance": "engineering starting estimates; pair-dependent and uncalibrated",
+  "center_of_mass_m": [
+    0.0,
+    1.8381791390067284e-19,
+    0.015
+  ],
+  "principal_inertia_kg_m2": [
+    1.0800000000000007e-05,
+    1.9440000000000014e-05,
+    2.2464e-05
+  ],
+  "inertia_provenance": "uniform-density integration of collision proxies; overlapping compound parts counted additively",
+  "collision_proxy_volume_m3": 7.199999999999999e-05,
+  "collider_count": 1,
+  "semantic_class": "wood_block",
+  "deformation_modeled": false,
+  "grasp_tested": false,
+  "simready_certified": false,
+  "source_job": "artifacts/jobs/20260920T060513Z-1487f16e/wood_block_001",
+  "limitations": [
+    "Rigid approximation; no crushing, breakage, liquids or electronics behavior.",
+    "Visual micro-details are omitted from collision where not contact-critical.",
+    "No task-specific robot grasp success claim."
+  ],
+  "simulation_validation": {
+    "isaac_version": "6.0.0.1",
+    "physics_hz": 480,
+    "drop_trials_passed": 3,
+    "drop_trials_total": 3,
+    "all_drop_checks_passed": true,
+    "failed_checks": [],
+    "robot_grasp_tested": false
+  }
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "file": "mobiltech_blue.svg",
+    "sha256": "c5edbca0029904f19da73ac8fbbabc1f6f2f8a50017ec11b00f2f519cda849ec",
+    "source_url": "https://www.mobiltech.io/",
+    "retrieved_utc": "2026-09-20",
+    "source": "original inline header/footer SVG, unchanged artwork",
+    "fills": [
+      "#0069C8"
+    ]
+  },
+  {
+    "file": "mobiltech_light.svg",
+    "sha256": "70cfdb2be362df583adda843d3b4e335f74aa04128de7de3f675332a2529a30a",
+    "source_url": "https://www.mobiltech.io/",
+    "retrieved_utc": "2026-09-20",
+    "source": "original inline header/footer SVG, unchanged artwork",
+    "fills": [
+      "#DDDDDD"
+    ]
+  }
+]

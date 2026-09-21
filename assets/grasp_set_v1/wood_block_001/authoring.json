@@ -1,0 +1,35 @@
+{
+  "asset_id": "wood_block_001",
+  "scene": "research_wood_block_001",
+  "output_dir": ".",
+  "blend_path": "authoring.blend",
+  "usd_path": "visual.usdc",
+  "bounds_m": [
+    [
+      -0.029999999329447746,
+      -0.019999999552965164,
+      0.0
+    ],
+    [
+      0.029999999329447746,
+      0.019999999552965164,
+      0.029999999329447746
+    ]
+  ],
+  "dimensions_m": [
+    0.05999999865889549,
+    0.03999999910593033,
+    0.029999999329447746
+  ],
+  "objects": [
+    {
+      "name": "wood_block_001_solid_beech_block",
+      "vertices": 96,
+      "faces": 98
+    }
+  ],
+  "export_finished": true,
+  "physics_authored": false,
+  "simready_validated": false,
+  "path_policy": "Paths describe packaged files; original job locations were removed."
+}

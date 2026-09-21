@@ -1,0 +1,54 @@
+{
+  "wood_block_001": {
+    "mass_kg": 0.05184,
+    "state": "solid dry European beech",
+    "method": "Nominal 0.060 x 0.040 x 0.030 m volume x 720 kg/m3 = 0.05184 kg; small bevel volume neglected.",
+    "reference_type": "density-derived estimate, not a weighed specimen",
+    "source_urls": [
+      "https://www.halswelltimber.co.nz/timber-species/beech-european/"
+    ],
+    "notes": "Supplier quotes approximate density at 15% moisture content. Species and moisture cause variation."
+  },
+  "food_carton_001": {
+    "mass_kg": 0.165,
+    "state": "sealed, containing 150 g dry oat crackers",
+    "method": "150 g food + 15 g estimated carton/liner. Surface area 0.032 m2 x 350 g/m2 = 11.2 g; folds, glue and liner rounded to 15 g.",
+    "reference_type": "representative net food mass plus calculated packaging allowance",
+    "source_urls": [
+      "https://nairns.com/our-range/flatbreads/rosemary-sea-salt-flatbreads",
+      "https://www.holmen.com/en/board-and-paper/products/paperboard/incada/incada-exel/"
+    ],
+    "notes": "Not an exact replica of the cited food package. Packaging allowance is an engineering estimate, not a published gross mass."
+  },
+  "food_can_001": {
+    "mass_kg": 0.349,
+    "state": "sealed, filled tomato soup can",
+    "method": "YCB tomato soup can total mass 349 g, used as a close dimensional analogue to this 65 mm diameter x 100 mm can.",
+    "reference_type": "published robotics benchmark total mass adopted for a comparable object",
+    "source_urls": [
+      "https://journals.sagepub.com/doi/10.1177/0278364917700714",
+      "https://www.campbellsfoodservice.com/product/campbells-condensed-tomato-soup-10-75-oz-can-12-pack/"
+    ],
+    "notes": "Printed 305 g denotes contents only (10.75 oz, rounded); USD mass includes the can. Contents are represented as a single rigid body."
+  },
+  "ceramic_mug_001": {
+    "mass_kg": 0.295,
+    "state": "empty ceramic mug",
+    "method": "Cambridge ceramic promotional mug unit mass 295 g; reference diameter 80 mm and height 93 mm closely match the authored 80 x 95 mm body.",
+    "reference_type": "supplier-listed unit mass adopted for a comparable mug",
+    "source_urls": [
+      "https://www.mugstore.co.uk/cambridge-mug-19309"
+    ],
+    "notes": "No liquid included. This geometry is not a scan of that product; ceramic wall thickness and glaze can vary."
+  },
+  "cell_phone_001": {
+    "mass_kg": 0.187,
+    "state": "phone with battery, no case",
+    "method": "187 g reference mass from Google Pixel 8 specifications, used for a similarly sized generic smartphone.",
+    "reference_type": "manufacturer-listed product mass adopted for a comparable phone",
+    "source_urls": [
+      "https://support.google.com/pixelphone/answer/7158570?hl=en"
+    ],
+    "notes": "Not a Pixel replica. Camera layout and dimensions remain the generic design. Battery/internal mass distribution is not measured."
+  }
+}
